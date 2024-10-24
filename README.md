@@ -1,11 +1,15 @@
-# Java Assembly Interpreter
-A simple interpreter that executes assembly-like code in Java.
+# Java/Python Assembly Interpreter
+A simple interpreter that executes assembly-like code in Java and Python.
 
 
 To execute an assembly-like file, simply run Main.java with the path to your file as an argument. For example:
 
 ```
 java Main.java MyFile
+```
+or
+```
+python3 Main.py MyFile
 ```
 
 The interpreter will read in the file, remove comments and blank lines, and execute the resulting code.
